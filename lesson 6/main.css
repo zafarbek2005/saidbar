@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  max-width: 1200px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.header nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.header nav a input {
+  outline: none !important;
+}
+
+body .saidbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  padding: 10px;
+  right: -300px;
+  display: none;
+}
+body .saidbar .active {
+  right: 0;
+}
+body .said.btn {
+  position: relative;
+}/*# sourceMappingURL=main.css.map */
